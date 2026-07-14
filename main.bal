@@ -1,5 +1,5 @@
 import ballerina/io;
-import bishidev/private_package;
+import bhashinee2025/private_package;
 
 public function main() {
     io:println("Hello, World!");
