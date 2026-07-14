@@ -1,9 +1,9 @@
 import ballerina/test;
-import bishidev/private_package;
+import bhashinee2025/private_package;
 
 @test:Config {}
 function testLogs() {
-    test:assertEquals(private_package:privateFunction(), "This is a private function.");
+    test:assertEquals(private_package:privateFunction(), "This is the private function.");
 }
 
 // Intentionally-failing test, ONLY to force the unit-test phase to exit non-zero

@@ -109,8 +109,7 @@ dependencies = [
 	{org = "ballerina", name = "io"},
 	{org = "ballerina", name = "test"},
 	{org = "ballerinai", name = "observe"},
-	{org = "bhashinee2025", name = "private_package"},
-	{org = "bishidev", name = "private_package"}
+	{org = "bhashinee2025", name = "private_package"}
 ]
 modules = [
 	{org = "bhashinee2025", packageName = "UsePrivatePackage", moduleName = "UsePrivatePackage"}
@@ -125,17 +124,5 @@ dependencies = [
 ]
 modules = [
 	{org = "bhashinee2025", packageName = "private_package", moduleName = "private_package"}
-]
-
-[[package]]
-org = "bishidev"
-name = "private_package"
-version = "0.1.2"
-scope = "testOnly"
-dependencies = [
-	{org = "ballerinai", name = "observe"}
-]
-modules = [
-	{org = "bishidev", packageName = "private_package", moduleName = "private_package"}
 ]
 
